@@ -1,0 +1,11 @@
+"Client Identity","Way to reach them","Current Phase","Additional Info","Origin"
+"Alice Walker, VP","alice@walker.com / +19998887777","negotiation","Requires 20% discount on the ""Premium"" tier.","Organic Search"
+"Bob The Builder","bob@buildit.com, builder.bob@test.com","new","Wants to talk tomorrow.","Referral"
+"Mr. No Contact","","lost","We don't have his contact info, this should be skipped by the validation service!","Unknown"
+"Multiline Mary","mary@multiline.com","contacted","She said:
+""Call me back on Tuesday.
+I am busy today.""","Trade Show"
+"Strange Status Guy","strange@guy.com","SUPER_LEAD_EXTREME","This status is totally invalid for our CRM. Let's see if Gemini fixes it or if Zod catches it.","Direct"
+"Comma Charlie, Jr.","+1 555 123 4567","qualified","Likes apples, bananas, and oranges.","Ad Campaign"
+"Just A Phone Number","+44 7700 900077","","No email provided, but should be valid since there's a phone.",""
+"  Whitespace Wendy  "," wendy@spaces.com  "," NEW "," Lots of trailing and leading spaces ",""

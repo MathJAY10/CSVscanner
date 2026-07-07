@@ -1,0 +1,5 @@
+"Client Name","Contact Info","Stage","Details"
+"Alice Walker, VP","alice@walker.com / +19998887777","negotiation","Requires 20% discount"
+"Tom","tom@test.com, tom2@test.com","new","""Please quote"" - Tom"
+"Missing Email","","lost","No contact info provided"
+"Bad Status","bad@test.com","SUPER_LEAD","Should be skipped or status normalized"

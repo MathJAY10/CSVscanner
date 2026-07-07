@@ -1,0 +1,4 @@
+"First Name","Last Name","Email Address","Contact Number","Status","Source","Notes"
+"John","Doe","john@example.com","+1234567890","NEW","WEBSITE","Interested in product, call tomorrow"
+"Jane","Smith","jane.smith@example.com","","CONTACTED","REFERRAL","Met at conference"
+"Bob","","bob@company.com","555-0199","QUALIFIED","",""
