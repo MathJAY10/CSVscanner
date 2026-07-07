@@ -40,10 +40,10 @@ export const api = {
 
       const data = await response.json();
       return data as ImportResponse;
-    } catch (error: any) {
+    } catch (error: unknown) {
       // If it's already an error we manually threw above, re-throw it.
       // Otherwise, it's a network failure.
-      if (error.message && error.message.includes('Unexpected server error') || error.message.includes('Failed to import') || error.message !== 'Failed to fetch') {
+      if (error instanceof Error && (error.message.includes('Unexpected server error') || error.message.includes('Failed to import') || error.message !== 'Failed to fetch')) {
           throw new Error(error.message || 'Network error');
       }
       throw new Error('Network error. Please check your connection.');
